@@ -1,5 +1,5 @@
 {
-    "name": "inviqa/mx-widgetcomponent",
+    "name": "aeroflow/mx-widgetcomponent",
     "description": "Inviqa - MX Widget Component",
     "type": "magento2-module",
     "version": "3.0.1",
@@ -38,6 +38,9 @@
         "magento/module-cms": "^101.0|^102.0|^103.0|^104.0",
         "magento/module-ui": "^100.1|^101.0",
         "magento/module-catalog": "^101.0|^102.0|^103.0|^104.0"
+    },
+    "replace": {
+        "inviqa/mx-widgetcomponent": "*"
     },
     "config": {
         "bin-dir": "bin",
